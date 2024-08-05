@@ -31,7 +31,7 @@ header {
     color: white;
 }
 
-a:link, a:visited {
+#but:link, #but:visited {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
@@ -41,7 +41,7 @@ a:link, a:visited {
     display: inline-block;
   }
   
-a:hover, a:active {
+#but:hover, #but:active {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
   }
@@ -75,11 +75,8 @@ p{
 .redes{
     width: 42px;
     height: 42px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
     padding: 10px 20px;
-    display: inline-block;
+    display: flex;
     border: 0;
+    margin-left: 43%;
 }
