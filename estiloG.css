@@ -3,70 +3,10 @@
 body{
     font-family:"Open Sans";
     color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0%;
     height: auto;
 }
-
-h1{
-    text-align: center;
-    font-weight:700;
-    font-size: 45px;
-}
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-.conteudo-principal{
-    margin: auto;
-    width: 50%;
-}
-.conteudo-lista{
-    margin: auto;
-    width: 50%;
-}
-.meu-time{
-    margin: auto;
-    width: 50%;
-}
-
-.City{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.Manchester{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.Palmeiras{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.Cruzeiro{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.Escalação{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
 footer{
 	background-color: black;
 	color: #fff;
@@ -108,4 +48,38 @@ a:hover, a:active {
 
 .tit{
     margin-right: 80px;
+}
+
+h1{
+    text-align: center;
+    font-weight:700;
+    font-size: 45px;
+}
+
+.sobre{
+    margin: auto;
+    width: 50%;
+}
+
+p{
+    text-align: center;
+}
+
+.ft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.redes{
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 0;
 }
